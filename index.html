@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just For You</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-screen" id="loginScreen">
+      <h2>Enter Your Credentials</h2>
+      <input type="text" placeholder="Username" id="usernameInput" />
+      <input type="password" placeholder="Password" id="passwordInput" />
+    </div>
+    <div class="magic-screen hidden" id="magicScreen">
+      <p class="magic-line">Why would I need my Anshika to enter credentials?</p>
+      <p class="magic-line">I can just feel through this digital screen that it's you, my darling 💖</p>
+      <div class="floating-envelope" onclick="openLetter()">
+        💌
+      </div>
+    </div>
+    <div class="letter-section hidden" id="letterSection">
+      <div class="letter">
+        <h2>My Dearest Anshika,</h2>
+        <p>[This is where your heartfelt letter content will go]</p>
+      </div>
+    </div>
+    <div class="my-anshi-section hidden" id="anshiSection">
+      <h2>My Anshi ❤️</h2>
+      <p>[Describe what she means to you here]</p>
+    </div>
+    <div class="gallery-section hidden" id="gallerySection">
+      <h2>Our Moments</h2>
+      <div class="polaroid-gallery">
+        <!-- Replace with real images -->
+        <div class="polaroid">📸<p>Us</p></div>
+        <div class="polaroid">📸<p>Her Smile</p></div>
+      </div>
+    </div>
+    <div class="playlist-section hidden" id="playlistSection">
+      <h2>9 Months of Us Playlist 🎶</h2>
+      <!-- Embed Spotify playlist when ready -->
+      <iframe src="https://open.spotify.com/embed/playlist/placeholder" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class="about-me-section hidden" id="aboutSection">
+      <h2>Get to Know Me</h2>
+      <p>[Your childhood stories, dreams, and fun moments]</p>
+    </div>
+    <footer class="footer hidden" id="footer">
+      <p>Countdown to 1 Year Anniversary: <span id="countdown"></span></p>
+    </footer>  <script src="script.js"></script></body>
+</html>
